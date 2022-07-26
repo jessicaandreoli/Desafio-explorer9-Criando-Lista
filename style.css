@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  background: rgb(228, 225, 225);
+  font-family: 'Poppins', sans-serif;
+}
+
+header, h1, legend{
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+}
+
+header {
+  margin-bottom: 5 rem 0 2rem;
+  background: #293241;
+  color: white;
+}
+
+header h1, p, input, button, textarea {
+  font-family: 'Poppins', sans-serif;
+}
+
+header img {
+  height: 15rem;
+  margin: 5rem 0 2rem;
+}
+
+header h1 {
+  font-size: 4rem;
+  font-weight: lighter;
+  letter-spacing: 0.2rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+header h2 {
+  background: rgb(146, 146, 250);
+  width: 75rem;
+  height: 15rem;
+  margin: 0 auto;
+  padding: 6rem 0; 
+  color: white;
+  font-size: 3rem;
+  font-weight: lighter;
+  border-radius: 2rem 2rem 0 0;
+  margin-top: 3rem;
+}
+
+.container {
+  width: 75rem;
+  margin: 0 auto;
+  background: white;
+  border-radius: 0 0 2rem 2rem;
+  padding: 3rem 6rem;
+}
+
+
+fieldset {
+  border: none;
+}
+
+.fieldset-wraper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 2rem;
+}
+
+legend {
+  border-bottom: 1px solid #dedee3;
+  padding-bottom: 2rem;
+  font-size: 3rem;
+  color: gray
+}
+
+.input-wraper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+label {
+  font-size: 1.5rem;
+  color: gray;
+}
+
+label span {
+  margin-left: 0.8rem;
+}
+
+input, #result, button {
+  background: #ebebf8;
+  height: 5rem;
+  border: none;
+  border-radius: 2rem;
+  padding: 2rem;
+  color: gray;
+}
+
+#result {
+  height: 30rem;
+}
+
+button {
+  color: white;
+  width: 100%;
+  margin: 2rem 0;
+  background: rgb(146, 146, 250);
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+button:hover {
+  background: rgb(113, 113, 194);
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+}
